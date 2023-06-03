@@ -1,0 +1,139 @@
+03/06/2023 19:51:37
+--- Start Verification ---
+--------------------------
+COMMAND: run
+LIST WITH URLS: urls.txt
+REPETITIONS DEFINED: 1
+TIME BETWEEN REQUESTS: 800
+---
+03/06/2023 19:51:37---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/posts/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 64 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+---
+03/06/2023 19:51:37---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/albums/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 67 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "quidem molestiae enim"
+}
+---
+03/06/2023 19:51:37---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/comments/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 67 ms
+CONTENT BODY: {
+  "postId": 1,
+  "id": 1,
+  "name": "id labore ex et quam laborum",
+  "email": "Eliseo@gardner.biz",
+  "body": "laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium"
+}
+---
+03/06/2023 19:51:37---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/todos/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 67 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "delectus aut autem",
+  "completed": false
+}
+---
+03/06/2023 19:51:37---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/todos/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 67 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "delectus aut autem",
+  "completed": false
+}
+---
+03/06/2023 19:51:37---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/users/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 67 ms
+CONTENT BODY: {
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org",
+  "company": {
+    "name": "Romaguera-Crona",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-markets"
+  }
+}
+---
+03/06/2023 19:51:37---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/photos/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 67 ms
+CONTENT BODY: {
+  "albumId": 1,
+  "id": 1,
+  "title": "accusamus beatae ad facilis cum similique qui sunt",
+  "url": "https://via.placeholder.com/600/92c952",
+  "thumbnailUrl": "https://via.placeholder.com/150/92c952"
+}
+---
+03/06/2023 19:51:38---
+This is the result of your endpoint checks:
+=> Url = https://jsonplaceholder.typicode.com/albums/1
+=> Average Response Time = 67 ms
+=> Success Percentage = 100.00% 
+---
+03/06/2023 19:51:38---
+This is the result of your endpoint checks:
+=> Url = https://jsonplaceholder.typicode.com/comments/1
+=> Average Response Time = 67 ms
+=> Success Percentage = 100.00% 
+---
+03/06/2023 19:51:38---
+This is the result of your endpoint checks:
+=> Url = https://jsonplaceholder.typicode.com/todos/1
+=> Average Response Time = 67 ms
+=> Success Percentage = 100.00% 
+---
+03/06/2023 19:51:38---
+This is the result of your endpoint checks:
+=> Url = https://jsonplaceholder.typicode.com/users/1
+=> Average Response Time = 67 ms
+=> Success Percentage = 100.00% 
+---
+03/06/2023 19:51:38---
+This is the result of your endpoint checks:
+=> Url = https://jsonplaceholder.typicode.com/photos/1
+=> Average Response Time = 67 ms
+=> Success Percentage = 100.00% 
+---
+03/06/2023 19:51:38---
+This is the result of your endpoint checks:
+=> Url = https://jsonplaceholder.typicode.com/posts/1
+=> Average Response Time = 64 ms
+=> Success Percentage = 100.00% 
+---
