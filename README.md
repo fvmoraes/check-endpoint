@@ -28,35 +28,32 @@ Linux
     --repeat (-r) <Number of repetitions> 
     --interval (-i) <Time interval between requests (in milliseconds)>
 ```
-> 
 ![](images/check-endpoint_use_linux.png)
 
 > 
 ```
 MacOs
 
-./check-endpoint run --file urls.txt --repeat 10 --interval 800
+./check-endpoint.app run --file urls.txt --repeat 10 --interval 800
 
-./check-endpoint run 
+./check-endpoint.app run 
     --file (-f) <File containing list of URLs> 
     --repeat (-r) <Number of repetitions> 
     --interval (-i) <Time interval between requests (in milliseconds)>
 ```
-> 
 ![](images/check-endpoint_use_macos.png)
 
 > 
 ```
 Windows
 
-.\check-endpoint run --file urls.txt --repeat 10 --interval 800
+.\check-endpoint.exe run --file urls.txt --repeat 10 --interval 800
 
 .\check-endpoint.exe run 
     --file (-f) <File containing list of URLs> 
     --repeat (-r) <Number of repetitions> 
     --interval (-i) <Time interval between requests (in milliseconds)>
 ``` 
->
 ![](images/check-endpoint_use_windows.png)
 
 ### Urls file example:
