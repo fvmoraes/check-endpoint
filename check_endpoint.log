@@ -1,15 +1,15 @@
-03/06/2023 19:51:37
+17/06/2023 12:03:17
 --- Start Verification ---
 --------------------------
 COMMAND: run
 LIST WITH URLS: urls.txt
-REPETITIONS DEFINED: 1
-TIME BETWEEN REQUESTS: 800
+REPETITIONS DEFINED: 10
+TIME BETWEEN REQUESTS: 500
 ---
-03/06/2023 19:51:37---
+17/06/2023 12:03:17---
 ENDPOINT URL: https://jsonplaceholder.typicode.com/posts/1
 STATUS CODE: 200 OK
-RESPONSE TIME: 64 ms
+RESPONSE TIME: 112 ms
 CONTENT BODY: {
   "userId": 1,
   "id": 1,
@@ -17,20 +17,10 @@ CONTENT BODY: {
   "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
 }
 ---
-03/06/2023 19:51:37---
-ENDPOINT URL: https://jsonplaceholder.typicode.com/albums/1
-STATUS CODE: 200 OK
-RESPONSE TIME: 67 ms
-CONTENT BODY: {
-  "userId": 1,
-  "id": 1,
-  "title": "quidem molestiae enim"
-}
----
-03/06/2023 19:51:37---
+17/06/2023 12:03:17---
 ENDPOINT URL: https://jsonplaceholder.typicode.com/comments/1
 STATUS CODE: 200 OK
-RESPONSE TIME: 67 ms
+RESPONSE TIME: 112 ms
 CONTENT BODY: {
   "postId": 1,
   "id": 1,
@@ -39,10 +29,10 @@ CONTENT BODY: {
   "body": "laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium"
 }
 ---
-03/06/2023 19:51:37---
+17/06/2023 12:03:17---
 ENDPOINT URL: https://jsonplaceholder.typicode.com/todos/1
 STATUS CODE: 200 OK
-RESPONSE TIME: 67 ms
+RESPONSE TIME: 112 ms
 CONTENT BODY: {
   "userId": 1,
   "id": 1,
@@ -50,21 +40,10 @@ CONTENT BODY: {
   "completed": false
 }
 ---
-03/06/2023 19:51:37---
-ENDPOINT URL: https://jsonplaceholder.typicode.com/todos/1
-STATUS CODE: 200 OK
-RESPONSE TIME: 67 ms
-CONTENT BODY: {
-  "userId": 1,
-  "id": 1,
-  "title": "delectus aut autem",
-  "completed": false
-}
----
-03/06/2023 19:51:37---
+17/06/2023 12:03:17---
 ENDPOINT URL: https://jsonplaceholder.typicode.com/users/1
 STATUS CODE: 200 OK
-RESPONSE TIME: 67 ms
+RESPONSE TIME: 112 ms
 CONTENT BODY: {
   "id": 1,
   "name": "Leanne Graham",
@@ -89,10 +68,10 @@ CONTENT BODY: {
   }
 }
 ---
-03/06/2023 19:51:37---
+17/06/2023 12:03:17---
 ENDPOINT URL: https://jsonplaceholder.typicode.com/photos/1
 STATUS CODE: 200 OK
-RESPONSE TIME: 67 ms
+RESPONSE TIME: 112 ms
 CONTENT BODY: {
   "albumId": 1,
   "id": 1,
@@ -101,39 +80,1909 @@ CONTENT BODY: {
   "thumbnailUrl": "https://via.placeholder.com/150/92c952"
 }
 ---
-03/06/2023 19:51:38---
-This is the result of your endpoint checks:
-=> Url = https://jsonplaceholder.typicode.com/albums/1
-=> Average Response Time = 67 ms
-=> Success Percentage = 100.00% 
+17/06/2023 12:03:17---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/albums/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 114 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "quidem molestiae enim"
+}
 ---
-03/06/2023 19:51:38---
-This is the result of your endpoint checks:
-=> Url = https://jsonplaceholder.typicode.com/comments/1
-=> Average Response Time = 67 ms
-=> Success Percentage = 100.00% 
+17/06/2023 12:03:17---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/todos/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 119 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "delectus aut autem",
+  "completed": false
+}
 ---
-03/06/2023 19:51:38---
+17/06/2023 12:03:18---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/albums/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 44 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "quidem molestiae enim"
+}
+---
+17/06/2023 12:03:18---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/photos/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 44 ms
+CONTENT BODY: {
+  "albumId": 1,
+  "id": 1,
+  "title": "accusamus beatae ad facilis cum similique qui sunt",
+  "url": "https://via.placeholder.com/600/92c952",
+  "thumbnailUrl": "https://via.placeholder.com/150/92c952"
+}
+---
+17/06/2023 12:03:18---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/users/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 44 ms
+CONTENT BODY: {
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org",
+  "company": {
+    "name": "Romaguera-Crona",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-markets"
+  }
+}
+---
+17/06/2023 12:03:18---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/todos/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 44 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "delectus aut autem",
+  "completed": false
+}
+---
+17/06/2023 12:03:18---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/posts/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 44 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+---
+17/06/2023 12:03:18---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/todos/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 44 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "delectus aut autem",
+  "completed": false
+}
+---
+17/06/2023 12:03:18---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/comments/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 47 ms
+CONTENT BODY: {
+  "postId": 1,
+  "id": 1,
+  "name": "id labore ex et quam laborum",
+  "email": "Eliseo@gardner.biz",
+  "body": "laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium"
+}
+---
+17/06/2023 12:03:18---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/todos/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 35 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "delectus aut autem",
+  "completed": false
+}
+---
+17/06/2023 12:03:18---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/albums/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 35 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "quidem molestiae enim"
+}
+---
+17/06/2023 12:03:18---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/todos/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 35 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "delectus aut autem",
+  "completed": false
+}
+---
+17/06/2023 12:03:18---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/comments/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 35 ms
+CONTENT BODY: {
+  "postId": 1,
+  "id": 1,
+  "name": "id labore ex et quam laborum",
+  "email": "Eliseo@gardner.biz",
+  "body": "laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium"
+}
+---
+17/06/2023 12:03:18---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/users/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 35 ms
+CONTENT BODY: {
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org",
+  "company": {
+    "name": "Romaguera-Crona",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-markets"
+  }
+}
+---
+17/06/2023 12:03:18---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/photos/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 35 ms
+CONTENT BODY: {
+  "albumId": 1,
+  "id": 1,
+  "title": "accusamus beatae ad facilis cum similique qui sunt",
+  "url": "https://via.placeholder.com/600/92c952",
+  "thumbnailUrl": "https://via.placeholder.com/150/92c952"
+}
+---
+17/06/2023 12:03:18---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/posts/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 35 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+---
+17/06/2023 12:03:19---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/users/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 33 ms
+CONTENT BODY: {
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org",
+  "company": {
+    "name": "Romaguera-Crona",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-markets"
+  }
+}
+---
+17/06/2023 12:03:19---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/todos/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 34 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "delectus aut autem",
+  "completed": false
+}
+---
+17/06/2023 12:03:19---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/todos/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 34 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "delectus aut autem",
+  "completed": false
+}
+---
+17/06/2023 12:03:19---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/photos/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 34 ms
+CONTENT BODY: {
+  "albumId": 1,
+  "id": 1,
+  "title": "accusamus beatae ad facilis cum similique qui sunt",
+  "url": "https://via.placeholder.com/600/92c952",
+  "thumbnailUrl": "https://via.placeholder.com/150/92c952"
+}
+---
+17/06/2023 12:03:19---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/comments/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 34 ms
+CONTENT BODY: {
+  "postId": 1,
+  "id": 1,
+  "name": "id labore ex et quam laborum",
+  "email": "Eliseo@gardner.biz",
+  "body": "laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium"
+}
+---
+17/06/2023 12:03:19---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/albums/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 35 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "quidem molestiae enim"
+}
+---
+17/06/2023 12:03:19---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/posts/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 35 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+---
+17/06/2023 12:03:19---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/comments/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 36 ms
+CONTENT BODY: {
+  "postId": 1,
+  "id": 1,
+  "name": "id labore ex et quam laborum",
+  "email": "Eliseo@gardner.biz",
+  "body": "laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium"
+}
+---
+17/06/2023 12:03:19---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/albums/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 38 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "quidem molestiae enim"
+}
+---
+17/06/2023 12:03:19---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/todos/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 38 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "delectus aut autem",
+  "completed": false
+}
+---
+17/06/2023 12:03:19---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/users/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 38 ms
+CONTENT BODY: {
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org",
+  "company": {
+    "name": "Romaguera-Crona",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-markets"
+  }
+}
+---
+17/06/2023 12:03:19---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/photos/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 38 ms
+CONTENT BODY: {
+  "albumId": 1,
+  "id": 1,
+  "title": "accusamus beatae ad facilis cum similique qui sunt",
+  "url": "https://via.placeholder.com/600/92c952",
+  "thumbnailUrl": "https://via.placeholder.com/150/92c952"
+}
+---
+17/06/2023 12:03:19---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/todos/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 38 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "delectus aut autem",
+  "completed": false
+}
+---
+17/06/2023 12:03:19---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/posts/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 38 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+---
+17/06/2023 12:03:20---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/todos/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 36 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "delectus aut autem",
+  "completed": false
+}
+---
+17/06/2023 12:03:20---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/todos/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 37 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "delectus aut autem",
+  "completed": false
+}
+---
+17/06/2023 12:03:20---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/users/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 37 ms
+CONTENT BODY: {
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org",
+  "company": {
+    "name": "Romaguera-Crona",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-markets"
+  }
+}
+---
+17/06/2023 12:03:20---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/posts/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 37 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+---
+17/06/2023 12:03:20---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/comments/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 37 ms
+CONTENT BODY: {
+  "postId": 1,
+  "id": 1,
+  "name": "id labore ex et quam laborum",
+  "email": "Eliseo@gardner.biz",
+  "body": "laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium"
+}
+---
+17/06/2023 12:03:20---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/albums/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 37 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "quidem molestiae enim"
+}
+---
+17/06/2023 12:03:20---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/photos/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 37 ms
+CONTENT BODY: {
+  "albumId": 1,
+  "id": 1,
+  "title": "accusamus beatae ad facilis cum similique qui sunt",
+  "url": "https://via.placeholder.com/600/92c952",
+  "thumbnailUrl": "https://via.placeholder.com/150/92c952"
+}
+---
+17/06/2023 12:03:20---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/comments/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 40 ms
+CONTENT BODY: {
+  "postId": 1,
+  "id": 1,
+  "name": "id labore ex et quam laborum",
+  "email": "Eliseo@gardner.biz",
+  "body": "laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium"
+}
+---
+17/06/2023 12:03:20---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/posts/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 41 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+---
+17/06/2023 12:03:20---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/albums/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 41 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "quidem molestiae enim"
+}
+---
+17/06/2023 12:03:20---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/todos/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 41 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "delectus aut autem",
+  "completed": false
+}
+---
+17/06/2023 12:03:20---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/todos/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 44 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "delectus aut autem",
+  "completed": false
+}
+---
+17/06/2023 12:03:20---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/photos/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 44 ms
+CONTENT BODY: {
+  "albumId": 1,
+  "id": 1,
+  "title": "accusamus beatae ad facilis cum similique qui sunt",
+  "url": "https://via.placeholder.com/600/92c952",
+  "thumbnailUrl": "https://via.placeholder.com/150/92c952"
+}
+---
+17/06/2023 12:03:20---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/users/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 45 ms
+CONTENT BODY: {
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org",
+  "company": {
+    "name": "Romaguera-Crona",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-markets"
+  }
+}
+---
+17/06/2023 12:03:21---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/todos/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 41 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "delectus aut autem",
+  "completed": false
+}
+---
+17/06/2023 12:03:21---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/users/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 41 ms
+CONTENT BODY: {
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org",
+  "company": {
+    "name": "Romaguera-Crona",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-markets"
+  }
+}
+---
+17/06/2023 12:03:21---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/comments/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 41 ms
+CONTENT BODY: {
+  "postId": 1,
+  "id": 1,
+  "name": "id labore ex et quam laborum",
+  "email": "Eliseo@gardner.biz",
+  "body": "laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium"
+}
+---
+17/06/2023 12:03:21---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/posts/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 41 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+---
+17/06/2023 12:03:21---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/todos/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 42 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "delectus aut autem",
+  "completed": false
+}
+---
+17/06/2023 12:03:21---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/albums/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 43 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "quidem molestiae enim"
+}
+---
+17/06/2023 12:03:21---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/photos/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 48 ms
+CONTENT BODY: {
+  "albumId": 1,
+  "id": 1,
+  "title": "accusamus beatae ad facilis cum similique qui sunt",
+  "url": "https://via.placeholder.com/600/92c952",
+  "thumbnailUrl": "https://via.placeholder.com/150/92c952"
+}
+---
+17/06/2023 12:03:21---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/users/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 42 ms
+CONTENT BODY: {
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org",
+  "company": {
+    "name": "Romaguera-Crona",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-markets"
+  }
+}
+---
+17/06/2023 12:03:21---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/comments/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 44 ms
+CONTENT BODY: {
+  "postId": 1,
+  "id": 1,
+  "name": "id labore ex et quam laborum",
+  "email": "Eliseo@gardner.biz",
+  "body": "laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium"
+}
+---
+17/06/2023 12:03:21---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/albums/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 44 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "quidem molestiae enim"
+}
+---
+17/06/2023 12:03:21---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/todos/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 44 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "delectus aut autem",
+  "completed": false
+}
+---
+17/06/2023 12:03:21---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/posts/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 44 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+---
+17/06/2023 12:03:21---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/todos/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 44 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "delectus aut autem",
+  "completed": false
+}
+---
+17/06/2023 12:03:21---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/photos/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 55 ms
+CONTENT BODY: {
+  "albumId": 1,
+  "id": 1,
+  "title": "accusamus beatae ad facilis cum similique qui sunt",
+  "url": "https://via.placeholder.com/600/92c952",
+  "thumbnailUrl": "https://via.placeholder.com/150/92c952"
+}
+---
+17/06/2023 12:03:22---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/todos/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 43 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "delectus aut autem",
+  "completed": false
+}
+---
+17/06/2023 12:03:22---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/users/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 44 ms
+CONTENT BODY: {
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org",
+  "company": {
+    "name": "Romaguera-Crona",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-markets"
+  }
+}
+---
+17/06/2023 12:03:22---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/photos/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 45 ms
+CONTENT BODY: {
+  "albumId": 1,
+  "id": 1,
+  "title": "accusamus beatae ad facilis cum similique qui sunt",
+  "url": "https://via.placeholder.com/600/92c952",
+  "thumbnailUrl": "https://via.placeholder.com/150/92c952"
+}
+---
+17/06/2023 12:03:22---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/albums/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 45 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "quidem molestiae enim"
+}
+---
+17/06/2023 12:03:22---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/posts/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 46 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+---
+17/06/2023 12:03:22---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/comments/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 46 ms
+CONTENT BODY: {
+  "postId": 1,
+  "id": 1,
+  "name": "id labore ex et quam laborum",
+  "email": "Eliseo@gardner.biz",
+  "body": "laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium"
+}
+---
+17/06/2023 12:03:22---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/todos/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 46 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "delectus aut autem",
+  "completed": false
+}
+---
+17/06/2023 12:03:22---
 This is the result of your endpoint checks:
 => Url = https://jsonplaceholder.typicode.com/todos/1
-=> Average Response Time = 67 ms
+=> Average Response Time = 47 ms
 => Success Percentage = 100.00% 
 ---
-03/06/2023 19:51:38---
+17/06/2023 12:03:22---
+This is the result of your endpoint checks:
+=> Url = https://jsonplaceholder.typicode.com/comments/1
+=> Average Response Time = 47 ms
+=> Success Percentage = 100.00% 
+---
+17/06/2023 12:03:22---
 This is the result of your endpoint checks:
 => Url = https://jsonplaceholder.typicode.com/users/1
-=> Average Response Time = 67 ms
+=> Average Response Time = 47 ms
 => Success Percentage = 100.00% 
 ---
-03/06/2023 19:51:38---
+17/06/2023 12:03:22---
 This is the result of your endpoint checks:
 => Url = https://jsonplaceholder.typicode.com/photos/1
-=> Average Response Time = 67 ms
+=> Average Response Time = 49 ms
 => Success Percentage = 100.00% 
 ---
-03/06/2023 19:51:38---
+17/06/2023 12:03:22---
+This is the result of your endpoint checks:
+=> Url = https://jsonplaceholder.typicode.com/albums/1
+=> Average Response Time = 47 ms
+=> Success Percentage = 100.00% 
+---
+17/06/2023 12:03:22---
 This is the result of your endpoint checks:
 => Url = https://jsonplaceholder.typicode.com/posts/1
-=> Average Response Time = 64 ms
+=> Average Response Time = 47 ms
+=> Success Percentage = 100.00% 
+---
+17/06/2023 12:03:57
+--- Start Verification ---
+--------------------------
+COMMAND: run
+LIST WITH URLS: urls.txt
+REPETITIONS DEFINED: 10
+TIME BETWEEN REQUESTS: 500
+---
+17/06/2023 12:03:57---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/todos/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 105 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "delectus aut autem",
+  "completed": false
+}
+---
+17/06/2023 12:03:57---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/todos/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 107 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "delectus aut autem",
+  "completed": false
+}
+---
+17/06/2023 12:03:57---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/posts/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 107 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+---
+17/06/2023 12:03:57---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/users/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 107 ms
+CONTENT BODY: {
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org",
+  "company": {
+    "name": "Romaguera-Crona",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-markets"
+  }
+}
+---
+17/06/2023 12:03:57---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/comments/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 432 ms
+CONTENT BODY: {
+  "postId": 1,
+  "id": 1,
+  "name": "id labore ex et quam laborum",
+  "email": "Eliseo@gardner.biz",
+  "body": "laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium"
+}
+---
+17/06/2023 12:03:57---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/photos/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 433 ms
+CONTENT BODY: {
+  "albumId": 1,
+  "id": 1,
+  "title": "accusamus beatae ad facilis cum similique qui sunt",
+  "url": "https://via.placeholder.com/600/92c952",
+  "thumbnailUrl": "https://via.placeholder.com/150/92c952"
+}
+---
+17/06/2023 12:03:57---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/albums/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 432 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "quidem molestiae enim"
+}
+---
+17/06/2023 12:03:57---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/users/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 30 ms
+CONTENT BODY: {
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org",
+  "company": {
+    "name": "Romaguera-Crona",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-markets"
+  }
+}
+---
+17/06/2023 12:03:57---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/todos/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 30 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "delectus aut autem",
+  "completed": false
+}
+---
+17/06/2023 12:03:57---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/comments/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 30 ms
+CONTENT BODY: {
+  "postId": 1,
+  "id": 1,
+  "name": "id labore ex et quam laborum",
+  "email": "Eliseo@gardner.biz",
+  "body": "laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium"
+}
+---
+17/06/2023 12:03:57---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/photos/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 30 ms
+CONTENT BODY: {
+  "albumId": 1,
+  "id": 1,
+  "title": "accusamus beatae ad facilis cum similique qui sunt",
+  "url": "https://via.placeholder.com/600/92c952",
+  "thumbnailUrl": "https://via.placeholder.com/150/92c952"
+}
+---
+17/06/2023 12:03:57---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/posts/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 31 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+---
+17/06/2023 12:03:57---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/todos/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 32 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "delectus aut autem",
+  "completed": false
+}
+---
+17/06/2023 12:03:57---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/albums/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 33 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "quidem molestiae enim"
+}
+---
+17/06/2023 12:03:58---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/users/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 37 ms
+CONTENT BODY: {
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org",
+  "company": {
+    "name": "Romaguera-Crona",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-markets"
+  }
+}
+---
+17/06/2023 12:03:58---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/albums/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 37 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "quidem molestiae enim"
+}
+---
+17/06/2023 12:03:58---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/posts/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 37 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+---
+17/06/2023 12:03:58---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/comments/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 37 ms
+CONTENT BODY: {
+  "postId": 1,
+  "id": 1,
+  "name": "id labore ex et quam laborum",
+  "email": "Eliseo@gardner.biz",
+  "body": "laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium"
+}
+---
+17/06/2023 12:03:58---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/todos/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 37 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "delectus aut autem",
+  "completed": false
+}
+---
+17/06/2023 12:03:58---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/photos/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 37 ms
+CONTENT BODY: {
+  "albumId": 1,
+  "id": 1,
+  "title": "accusamus beatae ad facilis cum similique qui sunt",
+  "url": "https://via.placeholder.com/600/92c952",
+  "thumbnailUrl": "https://via.placeholder.com/150/92c952"
+}
+---
+17/06/2023 12:03:58---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/todos/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 37 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "delectus aut autem",
+  "completed": false
+}
+---
+17/06/2023 12:03:58---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/posts/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 38 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+---
+17/06/2023 12:03:58---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/comments/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 38 ms
+CONTENT BODY: {
+  "postId": 1,
+  "id": 1,
+  "name": "id labore ex et quam laborum",
+  "email": "Eliseo@gardner.biz",
+  "body": "laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium"
+}
+---
+17/06/2023 12:03:58---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/users/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 38 ms
+CONTENT BODY: {
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org",
+  "company": {
+    "name": "Romaguera-Crona",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-markets"
+  }
+}
+---
+17/06/2023 12:03:58---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/photos/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 39 ms
+CONTENT BODY: {
+  "albumId": 1,
+  "id": 1,
+  "title": "accusamus beatae ad facilis cum similique qui sunt",
+  "url": "https://via.placeholder.com/600/92c952",
+  "thumbnailUrl": "https://via.placeholder.com/150/92c952"
+}
+---
+17/06/2023 12:03:58---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/todos/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 39 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "delectus aut autem",
+  "completed": false
+}
+---
+17/06/2023 12:03:58---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/todos/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 39 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "delectus aut autem",
+  "completed": false
+}
+---
+17/06/2023 12:03:58---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/albums/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 39 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "quidem molestiae enim"
+}
+---
+17/06/2023 12:03:59---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/users/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 38 ms
+CONTENT BODY: {
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org",
+  "company": {
+    "name": "Romaguera-Crona",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-markets"
+  }
+}
+---
+17/06/2023 12:03:59---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/comments/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 39 ms
+CONTENT BODY: {
+  "postId": 1,
+  "id": 1,
+  "name": "id labore ex et quam laborum",
+  "email": "Eliseo@gardner.biz",
+  "body": "laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium"
+}
+---
+17/06/2023 12:03:59---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/todos/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 39 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "delectus aut autem",
+  "completed": false
+}
+---
+17/06/2023 12:03:59---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/todos/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 39 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "delectus aut autem",
+  "completed": false
+}
+---
+17/06/2023 12:03:59---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/albums/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 39 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "quidem molestiae enim"
+}
+---
+17/06/2023 12:03:59---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/photos/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 39 ms
+CONTENT BODY: {
+  "albumId": 1,
+  "id": 1,
+  "title": "accusamus beatae ad facilis cum similique qui sunt",
+  "url": "https://via.placeholder.com/600/92c952",
+  "thumbnailUrl": "https://via.placeholder.com/150/92c952"
+}
+---
+17/06/2023 12:03:59---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/posts/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 40 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+---
+17/06/2023 12:03:59---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/photos/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 38 ms
+CONTENT BODY: {
+  "albumId": 1,
+  "id": 1,
+  "title": "accusamus beatae ad facilis cum similique qui sunt",
+  "url": "https://via.placeholder.com/600/92c952",
+  "thumbnailUrl": "https://via.placeholder.com/150/92c952"
+}
+---
+17/06/2023 12:03:59---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/albums/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 39 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "quidem molestiae enim"
+}
+---
+17/06/2023 12:03:59---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/todos/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 39 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "delectus aut autem",
+  "completed": false
+}
+---
+17/06/2023 12:03:59---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/todos/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 39 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "delectus aut autem",
+  "completed": false
+}
+---
+17/06/2023 12:03:59---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/comments/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 39 ms
+CONTENT BODY: {
+  "postId": 1,
+  "id": 1,
+  "name": "id labore ex et quam laborum",
+  "email": "Eliseo@gardner.biz",
+  "body": "laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium"
+}
+---
+17/06/2023 12:03:59---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/users/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 43 ms
+CONTENT BODY: {
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org",
+  "company": {
+    "name": "Romaguera-Crona",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-markets"
+  }
+}
+---
+17/06/2023 12:03:59---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/posts/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 44 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+---
+17/06/2023 12:04:00---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/posts/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 56 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+---
+17/06/2023 12:04:00---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/comments/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 56 ms
+CONTENT BODY: {
+  "postId": 1,
+  "id": 1,
+  "name": "id labore ex et quam laborum",
+  "email": "Eliseo@gardner.biz",
+  "body": "laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium"
+}
+---
+17/06/2023 12:04:00---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/todos/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 56 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "delectus aut autem",
+  "completed": false
+}
+---
+17/06/2023 12:04:00---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/photos/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 56 ms
+CONTENT BODY: {
+  "albumId": 1,
+  "id": 1,
+  "title": "accusamus beatae ad facilis cum similique qui sunt",
+  "url": "https://via.placeholder.com/600/92c952",
+  "thumbnailUrl": "https://via.placeholder.com/150/92c952"
+}
+---
+17/06/2023 12:04:00---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/users/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 56 ms
+CONTENT BODY: {
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org",
+  "company": {
+    "name": "Romaguera-Crona",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-markets"
+  }
+}
+---
+17/06/2023 12:04:00---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/todos/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 56 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "delectus aut autem",
+  "completed": false
+}
+---
+17/06/2023 12:04:00---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/albums/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 56 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "quidem molestiae enim"
+}
+---
+17/06/2023 12:04:00---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/photos/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 40 ms
+CONTENT BODY: {
+  "albumId": 1,
+  "id": 1,
+  "title": "accusamus beatae ad facilis cum similique qui sunt",
+  "url": "https://via.placeholder.com/600/92c952",
+  "thumbnailUrl": "https://via.placeholder.com/150/92c952"
+}
+---
+17/06/2023 12:04:00---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/users/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 40 ms
+CONTENT BODY: {
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org",
+  "company": {
+    "name": "Romaguera-Crona",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-markets"
+  }
+}
+---
+17/06/2023 12:04:00---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/todos/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 40 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "delectus aut autem",
+  "completed": false
+}
+---
+17/06/2023 12:04:00---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/todos/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 40 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "delectus aut autem",
+  "completed": false
+}
+---
+17/06/2023 12:04:00---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/comments/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 41 ms
+CONTENT BODY: {
+  "postId": 1,
+  "id": 1,
+  "name": "id labore ex et quam laborum",
+  "email": "Eliseo@gardner.biz",
+  "body": "laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium"
+}
+---
+17/06/2023 12:04:00---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/posts/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 41 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+---
+17/06/2023 12:04:00---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/albums/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 42 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "quidem molestiae enim"
+}
+---
+17/06/2023 12:04:01---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/posts/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 37 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+---
+17/06/2023 12:04:01---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/photos/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 37 ms
+CONTENT BODY: {
+  "albumId": 1,
+  "id": 1,
+  "title": "accusamus beatae ad facilis cum similique qui sunt",
+  "url": "https://via.placeholder.com/600/92c952",
+  "thumbnailUrl": "https://via.placeholder.com/150/92c952"
+}
+---
+17/06/2023 12:04:01---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/users/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 37 ms
+CONTENT BODY: {
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org",
+  "company": {
+    "name": "Romaguera-Crona",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-markets"
+  }
+}
+---
+17/06/2023 12:04:01---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/todos/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 37 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "delectus aut autem",
+  "completed": false
+}
+---
+17/06/2023 12:04:01---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/todos/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 37 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "delectus aut autem",
+  "completed": false
+}
+---
+17/06/2023 12:04:01---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/comments/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 37 ms
+CONTENT BODY: {
+  "postId": 1,
+  "id": 1,
+  "name": "id labore ex et quam laborum",
+  "email": "Eliseo@gardner.biz",
+  "body": "laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium"
+}
+---
+17/06/2023 12:04:01---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/albums/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 42 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "quidem molestiae enim"
+}
+---
+17/06/2023 12:04:01---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/comments/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 36 ms
+CONTENT BODY: {
+  "postId": 1,
+  "id": 1,
+  "name": "id labore ex et quam laborum",
+  "email": "Eliseo@gardner.biz",
+  "body": "laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium"
+}
+---
+17/06/2023 12:04:01---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/users/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 36 ms
+CONTENT BODY: {
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org",
+  "company": {
+    "name": "Romaguera-Crona",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-markets"
+  }
+}
+---
+17/06/2023 12:04:01---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/albums/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 36 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "quidem molestiae enim"
+}
+---
+17/06/2023 12:04:01---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/photos/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 36 ms
+CONTENT BODY: {
+  "albumId": 1,
+  "id": 1,
+  "title": "accusamus beatae ad facilis cum similique qui sunt",
+  "url": "https://via.placeholder.com/600/92c952",
+  "thumbnailUrl": "https://via.placeholder.com/150/92c952"
+}
+---
+17/06/2023 12:04:01---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/posts/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 36 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+---
+17/06/2023 12:04:01---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/todos/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 37 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "delectus aut autem",
+  "completed": false
+}
+---
+17/06/2023 12:04:01---
+ENDPOINT URL: https://jsonplaceholder.typicode.com/todos/1
+STATUS CODE: 200 OK
+RESPONSE TIME: 39 ms
+CONTENT BODY: {
+  "userId": 1,
+  "id": 1,
+  "title": "delectus aut autem",
+  "completed": false
+}
+---
+17/06/2023 12:04:02---
+This is the result of your endpoint checks:
+=> Url = https://jsonplaceholder.typicode.com/comments/1
+=> Average Response Time = 78 ms
+=> Success Percentage = 100.00% 
+---
+17/06/2023 12:04:02---
+This is the result of your endpoint checks:
+=> Url = https://jsonplaceholder.typicode.com/albums/1
+=> Average Response Time = 79 ms
+=> Success Percentage = 100.00% 
+---
+17/06/2023 12:04:02---
+This is the result of your endpoint checks:
+=> Url = https://jsonplaceholder.typicode.com/photos/1
+=> Average Response Time = 78 ms
+=> Success Percentage = 100.00% 
+---
+17/06/2023 12:04:02---
+This is the result of your endpoint checks:
+=> Url = https://jsonplaceholder.typicode.com/todos/1
+=> Average Response Time = 46 ms
+=> Success Percentage = 100.00% 
+---
+17/06/2023 12:04:02---
+This is the result of your endpoint checks:
+=> Url = https://jsonplaceholder.typicode.com/posts/1
+=> Average Response Time = 46 ms
+=> Success Percentage = 100.00% 
+---
+17/06/2023 12:04:02---
+This is the result of your endpoint checks:
+=> Url = https://jsonplaceholder.typicode.com/users/1
+=> Average Response Time = 46 ms
 => Success Percentage = 100.00% 
 ---

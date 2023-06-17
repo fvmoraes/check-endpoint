@@ -31,6 +31,19 @@ Linux
 > 
 ![](images/check-endpoint_use_linux.png)
 
+> 
+```
+MacOs
+
+./check-endpoint run --file urls.txt --repeat 10 --interval 800
+
+./check-endpoint run 
+    --file (-f) <File containing list of URLs> 
+    --repeat (-r) <Number of repetitions> 
+    --interval (-i) <Time interval between requests (in milliseconds)>
+```
+> 
+![](images/check-endpoint_use_macos.png)
 
 > 
 ```
